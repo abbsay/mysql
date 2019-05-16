@@ -1,0 +1,6 @@
+
+CREATE DATABASE papa_mage CHARACTER SET utf8 COLLATE utf8_general_ci;
+GRANT ALL ON papa_mage.* TO papa@localhost IDENTIFIED BY 'papa.2010';
+FLUSH PRIVILEGES;
+show databases;
+exit;
